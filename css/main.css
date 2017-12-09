@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'gora_free';
+    src: url('../fonts/gora-free-webfont.woff2') format('woff2'),
+         url('../fonts/gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+.body{
+    font-family: 'open_sansbold', Arial, serif;
+    -webkit-font-smoothing: antiliased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container{
+    margin: 0 auto;
+    width: 1060px;
+}
+.logo , .contacts,.mainmenu{
+    display: inline-block;
+}
+.contacts_phone{
+ font-size: 21px;
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: bold;
+}
+.contacts_guide{
+    font-size: 14px;
+    color: #b46f14;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav_item{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header{
+    height: 75px;
+    background: #131415;
+    
+}
+
+.welcome {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/decor/fitnesbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.welcome-box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+.welcome-box_logo{
+    margin-bottom: 40px;
+}
