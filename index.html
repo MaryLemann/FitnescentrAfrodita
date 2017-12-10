@@ -5,37 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Afrodita</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
+        <header class="header">
             <div class="container">
                 <div class="header_logo">
                             <a href="./pages/afrodita.html"class="logo">
                                 <img src="./img/logo/Афродита.png" alt="Company_logo" class="logo__img">
                             </a>  
                         </div>
-                            <div class="header_contacts">
+                        <div class="header_contacts">
                             <div class="contacts">
                 <a href="tel:+78000039210" class="contacts_phone">8(800)00-392-10</a>
                 <a href="/pages/contacts.html" class="contacts_guide">График работы</a>
             </div>
             </div>
-                <div class="mainmenu">
-                    <ul class="nav">
-                        <li class="nav_item">
-            <a href="index.html"class="nav_item-link">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item nav_item--curent">
+            <a class="nav_link">
                 <img src="./img/logo/main_icon.png"alt="main" class="btn_main"> ГЛАВНАЯ </a>
             </li>
-            <a href="uslugi.html"> <class="btn_link"> 
+            <li class="nav_item">
+            <a href="uslugi.html" class="nav_link"> 
                     <img src="./img/logo/service_icon.png"alt="service" class="btn_service"> УСЛУГИ </a>
-            <a href="otzyv.html"> <class="btn_link"> 
+            </li>
+            <li class="nav_item">
+            <a href="otzyv.html" class="btn_link"> 
                     <img src="./img/logo/feed_icon.png"alt="feed" class="btn_feed"> ОТЗЫВЫ </a>
+                </li>
                     </ul>
+                </nav>
         </div>
         </div>
-        </div>
+        </header>
         <section class="s-banner">
         <div class="banner">
             <img src="./img/decor/1.png" alt="banner">
@@ -46,21 +52,232 @@
             <h2 class="section-title">Особенности</h2>
             <div class="features">
                 <ul class="features_list">
-                    <li class="feautures_list-header"></li>
-
+                    <li class="feautures_item">
+                    <div class="feautures-item">
+                        <div class="feautures-item_icon"></div>
+                        <h5 class="feautures-item_title">УНИКАЛЬНОСТЬ</h5>
+                        <ul class="feautures-item_text"> 
+                                Мы делаем все,
+                                для вашего комфорта
+                                    <li class="feautures-item_list">
+                                       Питание включено
+                                    </li>
+                                    <li class="feautures-item_list">
+                                       Багаж(5кг)
+                                    </li>
+                                    <li class="feautures-item_list">
+                                       Душ/баня
+                                    </li>
+                                  </ul>
+                    </div>
+                </li>
+                <li class="feautures_item">
+                        <div class="feautures-item">
+                            <div class="feautures-item_icon"></div>
+                            <h5 class="feautures-item_title">ПРЕМИУМ-КЛАСС</h5>
+                            <ul class="feautures-item_text"> 
+                                   Наш класс оборудован тренажерами А-класса
+                                        <li class="feautures-item_list">
+                                            Качество
+                                        </li>
+                                        <li class="feautures-item_list">
+                                            Продуктивность
+                                        </li>
+                                        <li class="feautures-item_list">
+                                            Результат
+                                        </li>
+                                      </ul>
+                        </div>
+                    </li>
+                    <li class="feautures_item">
+                            <div class="feautures-item">
+                                <div class="feautures-item_icon"></div>
+                                <h5 class="feautures-item_title">ЛИЧНЫЙ ТРЕНЕР</h5>
+                                <ul class="feautures-item_text"> 
+                                   Тренер сделает все для вашего результата
+                                        <li class="feautures-item_list">
+                                          Программа
+                                        </li>
+                                        <li class="feautures-item_list">
+                                         Питание
+                                        </li>
+                                        <li class="feautures-item_list">
+                                          План тренеровок
+                                        </li>
+                                      </ul>
+                                    </div>
+                                <div class="feautures-item"></div>
+                            </div>
+                        </li>
                 </ul>
             </div>
         </div>
-        
         </section>
-                <div class="top-news"></div>
+        <section class="s-news">
+            <div class="container">
+                <h2 class="section-title section-title_black">Последние новости</h2>
+                <div class="news-box">
+                    <div class="last-news">  <!--- Посмотреть праильно ли тут код написан,а именно названия классов смущают-->
+                        <ul class="last-news_list">
+                            <li class="last-news_item">
+                                <div class="last-news-item">
+                                        <div class="last-news_ellipse-pic">
+                                   <img src="./img/news/pohydei.png" alt="Picture" class="last-news_pic">
+                                        </div>
+                                    <div class="last-news-item_data">
+                                        12.10.2016
+                                    </div>
+                                    <h5 class="last-news-item_header">Похудение с помощью бодибилдинга</h5>
+                                    <div class="last-news-item_text"> <!-- Какая разница между дефис и _ ? -->
+                                            Вдыхание одного литра кислорода эквивалентно 
+                                            «сжиганию» 5 калорий, однако в минуту при самом высоком темпе 
+                                            движений атлет способен вдохнуть не более 3-4 литров кислорода. 
+                                            Это крайне важно для каждого начинающего атлета.
+                                    </div>
+                                </div>
+                                </li>
+                            </ul> 
+                            </div>
+                            <div class="last-news">  <!--- Посмотреть праильно ли тут код написан,а именно названия классов смущают-->
+                                <ul class="last-news_list">
+                                    <li class="last-news_item">
+                                        <div class="last-news-item">
+                                                <div class="last-news_ellipse-pic">
+                                           <img src="./img/news/drug.png" alt="Picture" class="last-news_pic"> 
+                                                </div>
+                                            <div class="last-news-item_data">
+                                                01.02.2016
+                                            </div>
+                                            <h5 class="last-news-item_header">Заряжай друзей, получай призы!</h5>
+                                            <div class="last-news-item_text"> <!-- Какая разница между дефис и _ ? -->
+                                                Дополнительно для Вас: пользование сауной и предоставление средств 
+                                                личной гигиены, пользование баром, таблица замеров, дружеская атмосфера
+                                                 и постоянная поддержка. Мы запотимся о вашем комфорте и 
+                                                 предлагаем испытать это уже сегодня!
+                                            </div>
+                                        </div>
+                                        </li>
+                                    </ul> 
+                                    </div>
+                                    <div class="last-news">  <!--- Посмотреть праильно ли тут код написан,а именно названия классов смущают-->
+                                        <ul class="last-news_list">
+                                            <li class="last-news_item">
+                                                <div class="last-news-item">
+                                                    <div class="last-news_ellipse-pic">
+                                                   <img src="./img/news/trenirovka3.png" alt="Picture" class="last-news_pic">
+                                                </div>
+                                                    <div class="last-news-item_data">
+                                                        22.12.2015
+                                                    </div>
+                                                    <h5 class="last-news-item_header">Фрилансер? Выпрями спину!</h5>
+                                                    <div class="last-news-item_text"> <!-- Какая разница между дефис и _ ? -->
+                                                        Создайте рабочее место под себя. Вот этот инструмент поможет 
+                                                        определить, что подходит именно вам и вашему организму. 
+                                                        Используйте специальную подставку для ноутбука, если вы проводите
+                                                      за ним больше 2 часов. Настройте высоту и яркость монитора! 
+                                                    </div>
+                                                </div>
+                                                </li>
+                                            </ul> 
+                                            </div>
+                    <div class="top-news">
+                        <h5 class="top-news">ТОП НОВОСТЕЙ</h5> 
+                            <a href="#" class="top-news_gallery_link">За сентябрь</a> <!--ссылку не знаю куда именно скидывать,на ту же страницу,но как???-->
+                                    <ul class="top-news_gallery__list">
+                                      <li class="top-news_gallery__item">
+                                        <img class="top-news_gallery__img" src="./img/top_news/1.png" alt="Быстрая сушка">
+                                      </li>
+                                      <li class="top-news_gallery__item">
+                                        <img class="top-news_gallery__img" src="./img/top_news/2.png" alt="Стол">
+                                      </li>
+                                      <li class="top-news_gallery__item">
+                                            <img class="top-news_gallery__img" src="./img/top_news/3.png" alt="гантели">
+                                          </li>
+                                    </ul>
+                                  </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                   <div class="pagination">
+            <div class="pagination_info"> Страница 1 из 7 </div>
+            <div class="pagination_btns">
+                <a href="" class="pagination_btn-prev">
+                    <img class=pagination_icon-prev src="./img/decor/icon-prev.png"alt="icon-prev">
+                </a>
+                <ul class="pagination_list">
+                    <li class="pagination_item">
+                        <a href="" class="pagination_link">1</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a href="" class="pagination_link">2</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a href="" class="pagination_link">3</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a href="" class="pagination_link">4</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a href="" class="pagination_link">5</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a href="" class="pagination_link">6</a>
+                    </li>
+                </ul>
+                <a href="" class="pagination_btn-next">
+                        <img class=pagination_icon-next src="./img/decor/icon-next.png"alt="icon-next">
+                    </a>
+            </div>
         </div>
-        <div class="pagination">
-            <div class="pagination_info"> </div>
+        <footer class="footer">
+            <div class="container">
+                        <div class="footer_bg">
+                            <div class="footer_info"> Сделано с любовью и старанием на курсе "HTML и CSS"в 
+                                <a href=""class="InfoSchool"> Loftschool. </a> Автор работы: <b>Прохладов Вадим.</b> </div>
+                            <div class="footer_logo">
+                                        <a href="./pages/afrodita.html"class="logo">
+                                            <img src="./img/logo/Афродита.png" alt="Company_logo" class="logo__img">
+                                        </a>  
+                                    </div>
+                                    <div class="footer_contacts">
+                                        <div class="footer_contacts-title">
+                                        <div >
+                                                <div class="footer__right">
+                                                        <ul class="social">
+                                                        <li class="social__item">
+                                                            <a href="" class="social__link
+                                                       social__link--sprite-vk">
+                                                       <img src="./img/icon_soc/vk.png" alt="Мы В контакте"/> 
+                                                    </a>
+                                                </li>
+                                                        <li class="social__item"><a href="" class="social__link
+                                                       social__link--sprite-tw"> <img src="./img/icon_soc/twitter.png" alt="Мы В твиттере"/>
+                                                    </a>
+                                                </li>
+                                                        <li class="social__item"><a href="" class="social__link
+                                                       social__link--sprite-fb"> 
+                                                       <img src="./img/icon_soc/fb.png" alt="Мы В  фейсбуке"/>
+                                                    </a>
+                                                </li>
+                                                        <li class="social__item"><a href="" class="social__link
+                                                       social__link--sprite-google"> 
+                                                       <img src="./img/icon_soc/google.png" alt="Мы В гугле"/>
+                                                    </a>
+                                                    <li class="social__item">
+                                                            <a href="" class="social__link
+                                                       social__link--sprite-mail">
+                                                      <img src="./img/icon_soc/mail.png" alt="Почта"/>
+                                                    </a>
+                                                </li>
+                                                </li>
+                                            </div>
+                                        </div>
+                               </div>
+                        </div>
+                    </div>
         </div>
-        <div class="footer">
-
-        </div>
+        </footer>
     </div>
 </body>
 </html>
